@@ -1,0 +1,28 @@
+.notif{
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    border: 1px rgba(128, 128, 128, 0.562) solid;
+    justify-content: space-around;
+    align-items: center;
+}
+.notif1{
+background-color: rgba(5, 5, 73, 0.322);
+}
+.notif .img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px gray solid;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}.notif .img img{
+    width: 100%;
+
+}
+.notif button{
+ background-color: transparent;
+ border: none;
+}

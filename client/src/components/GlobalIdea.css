@@ -1,0 +1,280 @@
+.globalidea {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 71px;
+  flex-direction: column;
+}
+.globalidea .cov {
+  width: 100%;
+  height: 300px;
+  background-color: black;
+  overflow: hidden;
+}
+
+.globalidea .cov img {
+  width: 100%;
+  margin-top: -100px;
+}
+
+.globalidea .cov .descri {
+  width: 100%;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.377);
+  position: absolute;
+  top: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  color: white;
+}
+.globalidea .cov .descri .divgob {
+  width: 800px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.globalidea .cov .descri .divgob .div1 {
+  width: 900px;
+  position: absolute;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-weight: 600;
+}
+
+.globalidea .cov .descri h3 {
+  width: 820px;
+}
+
+.globalidea .cov .descri h6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 17px;
+}
+.globalidea .ideas {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 780px;
+  overflow: hidden;
+  margin-top: 30px;
+}
+.globalidea .ideas .idea1 {
+  width: 85%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 770px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+.globalidea .suiv {
+  width: 83%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.globalidea .suiv svg {
+  width: 40px;
+  height: 40px;
+  margin: 40px;
+
+  fill: rgba(128, 128, 128, 0.548);
+}
+.globalidea .suiv .di {
+  width: 40px;
+  height: 40px;
+  margin: 40px;
+
+  fill: rgba(182, 182, 182, 0.192);
+}
+.globalidea .suiv .di:hover {
+  fill: rgba(182, 182, 182, 0.192) !important ;
+}
+.globalidea .suiv svg:hover {
+  fill: #00fe90;
+}
+
+.descri .bt1 {
+  width: 120px;
+  height: 45px;
+  border-radius: 20px;
+  border: none;
+  background: linear-gradient(to right, #00fe90, #137bc3);
+}
+.descri .bt1:hover {
+  
+  background: linear-gradient(to right, #00fe90, #00fe90);
+}
+.descri .bt1 svg {
+  font-weight: 600 !important;
+}
+.modalidea {
+  width: 100%;
+  height: 625px;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.473);
+  position: fixed;
+  z-index: 99999999999999999999;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+}
+.modalidea section {
+  width: 80%;
+  height: 90%;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+.modalidea section h4 {
+  color: #137bc3;
+}
+.modalidea section .div {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+}
+.modalidea section .div .div1 {
+  width: 50%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  align-items: center;
+
+  overflow: hidden;
+}
+.modalidea section .div .div1 label {
+  color: gray;
+  font-size: 15px;
+
+  display: flex;
+  margin-top: 10px;
+  width: 430px;
+}
+.modalidea section .div .div1 label span {
+  color: red;
+  margin-left: 5px;
+}
+.modalidea section .div .div1 input {
+  margin-top: 10px;
+  width: 400px;
+  height: 40px;
+  background-color: rgba(128, 128, 128, 0.11);
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  outline: none;
+}
+.modalidea section .div .div1 textarea {
+  margin-top: 10px;
+  width: 400px;
+  height: 90px;
+  background-color: rgba(128, 128, 128, 0.11);
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  outline: none;
+}
+.modalidea section button {
+  width: 220px;
+  height: 40px;
+  position: absolute;
+  background-color: #137bc3;
+  color: white;
+  font-size: 20px;
+  bottom: 50px;
+  border: none;
+  font-weight: 600;
+  border-radius: 10px;
+}
+.modalidea section button:hover {
+  background-color: #00fe90;
+}
+.modalidea section .div .div2 {
+  width: 50%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  align-items: center;
+
+  overflow: hidden;
+}
+.modalidea section .div .div2 label {
+  color: gray;
+  font-size: 15px;
+
+  display: flex;
+  margin-top: 10px;
+  width: 430px;
+}
+.modalidea section .div .div2 label span {
+  color: red;
+  margin-left: 5px;
+}
+.modalidea section .div .div2 input {
+  margin-top: 10px;
+  width: 400px;
+  height: 40px;
+  background-color: rgba(128, 128, 128, 0.11);
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  outline: none;
+}
+.modalidea section .div .div2 textarea {
+  margin-top: 10px;
+  width: 400px;
+  height: 60px;
+  background-color: rgba(128, 128, 128, 0.11);
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  outline: none;
+}
+
+.modalidea main {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  background-color: white;
+  right: 10px;
+  top: 10px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

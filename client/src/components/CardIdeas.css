@@ -1,0 +1,185 @@
+.card{
+    width: 350px;
+    height: 350px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+.card .div{
+  width: 90%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.card:hover{
+
+width: 360px;
+height: 360px;
+transition: 0.5s;
+}
+.card:hover h4{
+
+  color: #137bc3;
+  transition: 0.5s;
+    }
+.card .img{
+    width: 100px;
+    height: 100px;
+    border: 2px rgba(128, 128, 128, 0.527) solid;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.card .img img{
+    
+    height: 100%;
+    border: 2px rgba(128, 128, 128, 0.733) solid;
+    border-radius: 50%;
+  
+}
+.card h4{
+    text-align: center; 
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s;
+ 
+ }
+ .card p{
+    text-align: center; 
+  width: 90%;
+    font-size: 17px;
+    font-weight: 600;
+    font-weight: 100;
+    color: gray;
+ 
+ }
+ .card .div .button{
+width: 100px;
+height: 40px;
+border-radius: 50px;
+border: none;
+background: linear-gradient(to right, #00fe90, #137bc3);
+color: white;
+font-weight: 600;
+ }
+ .card .div .button1{
+  width: auto;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   }
+   .card:hover .div .button1 .like{
+color: red;
+    margin-left: 5px;
+     }
+     .card:hover .div .button1 .vote{
+      color:#00fe90;
+          margin-left: 5px;
+           }
+   .card .div .button1:hover .svg1{
+fill:red
+     }
+   .card .div div p{
+    position: absolute;
+    background-color: rgb(233, 227, 227);
+    width: 50px;
+    margin-top: -60px;
+    display: none;
+    text-align: center !important;
+     }
+     .card .div div:hover p{
+      position: absolute;
+      background-color: rgb(233, 227, 227);
+      width: auto;
+      margin-top: -5px;
+      display: flex;
+      text-align: center !important;
+      font-weight: 600;
+      border-radius: 8px;
+      padding-left: 5px;
+      padding-right: 5px;
+       }
+       .modaldiv{width: 100%;
+      height: 657px;
+    background-color:rgba(0, 0, 0, 0.493) ;
+  
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+left: 0;
+top: 0;
+z-index: 9999999999999999999999999999999999999999999999999;}
+.modaldiv .sousmodal{
+  width: 60%;
+  height: 500px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@200&display=swap');
+.modaldiv .sousmodal h3{
+margin-top: 30px !important;
+  color: #137bc3 !important;;
+}
+.modaldiv .sousmodal label{
+color: gray;
+width: 90%;
+text-align: justify;
+}
+.modaldiv .sousmodal .Resources{
+  margin-top: 50px !important;
+width: 90%;
+height: 60px;
+display: flex;
+flex-wrap: wrap;
+margin: 0 auto;
+  }
+  .modaldiv .sousmodal .Resources .div1{
+    width: 30%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 10px;
+      }
+ 
+          .modaldiv .sousmodal .Resources .div1 div{
+           width:100%;
+           margin-left: 40px;
+           height: 50%;
+           display: flex;
+           justify-content: flex-start;
+           align-items: center;
+              }
+              
+      
+.modaldiv .sousmodal .delete{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+border: 3px gray solid;
+position: absolute;
+background-color: white;
+margin-top: -20px;
+right: 250px;
+display: flex;
+justify-content: center;
+align-items: center;
+}

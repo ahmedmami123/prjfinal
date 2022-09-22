@@ -1,0 +1,556 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=DynaPuff&family=Libre+Franklin:wght@100&family=Nunito+Sans:wght@200&family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;1,100&family=Roboto:wght@100&display=swap");
+
+/*******************************************************/
+
+.nav-bar1 {
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+
+  top: 0;
+  margin-top: 0px;
+  position: fixed;
+  z-index: 99999999999999999;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  background-color: rgba(255, 255, 255, 0.274);
+  border-bottom: 0.5px rgba(128, 128, 128, 0.144) solid;
+}
+.nav-bar2 {
+  background-color: white;
+  transition: 1s;
+}
+.nav-bar3 {
+  margin-top: 0px !important;
+  transition: 3s;
+}
+.nav-bar1 .sous-nav {
+  width: auto;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+}
+.nav-bar1 .sous-nav button {
+  width: 100px;
+  height: 43px;
+  background: linear-gradient(to right, #00fe90, #137bc3);
+  border: none;
+  border-radius: 45px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 18px;
+  color: white;
+  margin-right: 20px;
+  cursor: pointer;
+
+}
+a{text-decoration: none;
+}
+.nav-bar1 .sous-nav p {
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: "Comfortaa", cursive;
+  cursor: pointer;
+}
+
+.nav-bar1 .sous-nav .h2 {
+  font-family: "Comfortaa", cursive;
+  margin-left: 10px;
+  font-size: 30px;
+  color: white;
+}
+.nav-bar1 .sous-nav .h21 {
+  font-family: "Comfortaa", cursive;
+  margin-left: 10px;
+  font-size: 30px;
+  color: gray;
+}
+.nav-bar1 .sous-nav .p {
+  font-size: 15px;
+  font-weight: 800 !important;
+  color: white;
+  transition: 1s;
+}
+.nav-bar1 .sous-nav .p1 {
+  font-size: 15px;
+  font-weight: 800 !important;
+  color: gray;
+  transition: 1s;
+}
+.nav-bar1 .sous-nav .user-img {
+  width: 45px;
+  height: 45px;
+  margin-right: 5px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px rgba(128, 128, 128, 0.37) solid;
+}
+.nav-bar1 .sous-nav .user-img img {
+  width: 91%;
+
+  border-radius: 50%;
+}
+
+.nav-bar1 .sous-nav2 {
+  width: 500px;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-bar1 .sous-nav2 .p {
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+}
+.nav-bar1 .sous-nav2 .p1 {
+  font-size: 15px;
+  font-weight: 500;
+  color: gray;
+  transition: 1s;
+}
+.nav-bar1 .drop-down1 {
+  position: none;
+  position: absolute;
+  width: 200px;
+  top: 150px;
+  display: none;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  right: 0;
+  margin-right: 20px;
+  transition: 5s;
+}
+.nav-bar1 .drop-down {
+  position: absolute;
+  width: 200px;
+  top: 70px;
+  display: flex !important;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  right: 0;
+  margin-right: 20px;
+  transform: scale();
+}
+
+.drop-down div {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  color: rgb(107, 105, 105);
+  border-bottom: 1px rgba(128, 128, 128, 0.315) solid;
+}
+.drop-down div svg {
+  margin-left: 5px;
+}
+.drop-down div p {
+  margin-left: 5px;
+  font-size: 17px;
+}
+.nav-bar1 .drop-down {
+  position: absolute;
+  width: 200px;
+  top: 70px;
+  display: flex !important;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  right: 0;
+  margin-right: 20px;
+  transform: scale();
+}
+
+.drop-down div {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  color: rgb(107, 105, 105);
+  border-bottom: 1px rgba(128, 128, 128, 0.315) solid;
+}
+.drop-down div svg {
+  margin-left: 5px;
+}
+.drop-down div p {
+  margin-left: 5px;
+  font-size: 17px;
+}
+
+.nav-bar1 .drop-down1 {
+  position: none;
+  position: absolute;
+  width: 200px;
+  top: 150px;
+  display: none;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  right: 0;
+  margin-right: 20px;
+  transition: 5s;
+}
+.nav-bar1 .drop-down {
+  position: absolute;
+  width: 200px;
+  top: 70px;
+  display: flex !important;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  right: 0;
+  margin-right: 20px;
+  transform: scale();
+}
+
+.drop-down div {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  color: rgb(107, 105, 105);
+  border-bottom: 1px rgba(128, 128, 128, 0.315) solid;
+}
+.drop-down div svg {
+  margin-left: 5px;
+}
+.drop-down div p {
+  margin-left: 5px;
+  font-size: 17px;
+}
+.nav-bar1 .drop-down {
+  position: absolute;
+  width: 200px;
+  top: 70px;
+  display: flex !important;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  right: 0;
+  margin-right: 20px;
+  transform: scale();
+}
+
+.drop-down div {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  color: rgb(107, 105, 105);
+  border-bottom: 1px rgba(128, 128, 128, 0.315) solid;
+}
+.drop-down div:hover {
+ background-color: #00fe90;
+}
+.drop-down div:hover p{
+  color: white;
+
+ }
+ .drop-down div:hover svg{
+  fill: white;
+
+ }
+.drop-down div svg {
+  margin-left: 5px;
+}
+.drop-down div p {
+  margin-left: 5px;
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.nav-home {
+  background-color: rgba(255, 255, 255, 0.274);
+}
+.nav-login {
+  background-color:white;
+ 
+}
+.nav-login .pp{
+   color: gray !important;
+   
+  }
+   .navdash{
+  
+display: none !important;
+    
+   }
+
+
+
+
+
+   .dropdown {
+    position: relative;
+    width: 230px;
+    background-color: transparent;
+ }
+ .dropdown {
+  width: auto;
+}
+  .dropdown__face {
+    background-color:transparent;
+    padding: 20px;
+    border-radius: 25px;
+ }
+ .dropdown__items {
+  
+  
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background-color: #fff;
+  color: gray !important ;
+  
+  left:-40px !important;
+  padding: 20px;
+  width: 150px !important;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  border-radius: 25px;}
+  .dropdown__face {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+ }
+  .dropdown__items {
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 100%;
+    list-style: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    visibility: hidden;
+    z-index: -1;
+    opacity: 0;
+    transition: all 0.4s cubic-bezier(0.93, 0.88, 0.1, 0.8);
+ }
+  .dropdown__items::before {
+  
+   
+    background-color: #fff;
+    position: absolute;
+    bottom: 100%;
+    right: 20%;
+    height: 40px;
+    width: 20px;
+ }
+
+  .dropdown input {
+    display: none;
+ }
+  .dropdown input:checked ~ .dropdown__items {
+    top: calc(100% + 25px);
+    visibility: visible;
+    opacity: 1;
+ }
+ .dropdiv{
+  width: 150px;
+  height: 50px;
+  color: gray !important;
+  border-bottom: 1px rgba(128, 128, 128, 0.37) solid;
+  display:flex; justify-content: flex-start !;
+  align-items: center;
+ }
+ .dropdiv:hover p{
+ color: #00fe90 !important;
+ }
+ .dropdiv:hover svg{
+  fill: #00fe90 !important;
+  }
+ .dropdiv p{
+  font-size: 16px !important;
+  color: gray !important;
+  font-weight: 600 !important;
+  width: 100%;
+  
+ }
+ .dropdiv svg{
+margin-right: 15px;
+width: 25px;
+height: 25px;
+ }
+ .dropdiv a{
+  width: 100% !important;
+   }
+
+
+   .notnotif{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .notnotif .div{
+position: absolute;
+background-color: red !important;
+width: 7px;
+height: 7px;
+border-radius: 50%;
+margin-top: -15px;
+margin-left: 10px;
+   }
+
+
+
+   .svgg{
+   fill:#ff8600ed;
+
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /* Follow me for more pens like this! */
+
+/* Tweak to change the look and feel */
+:root {
+  --button-background: dodgerblue;
+  --button-color: white;
+  
+  --dropdown1-highlight: dodgerblue;
+  --dropdown1-width: 300px;
+  --dropdown1-background: white;
+  --dropdown1-color: black;
+}
+
+
+
+
+/* Dropdown1 styles */
+.dropdown1 {
+  position: relative;
+  padding: 0;
+  margin-right: 1em;
+  border: none;
+  width: 25px;
+}
+
+.dropdown1 summary {
+  list-style: none;
+  list-style-type: none;
+}
+
+.dropdown1 > summary::-webkit-details-marker {
+  display: none;
+}
+
+.dropdown1 summary:focus {
+  outline: none;
+}
+
+.dropdown1 summary:focus a.button {
+  border: 2px solid white;
+}
+
+.dropdown1 summary:focus {
+  outline: none;
+}
+
+.dropdown1 ul {
+  position: absolute;
+  margin: 20px 0 0 0;
+  padding: 20px 0;
+  width: var(--dropdown1-width);
+  left: 50%;
+  margin-left: calc((var(--dropdown1-width) / 2)  * -1);
+  box-sizing: border-box;
+  z-index: 2;
+  width: 300px;
+  height: 400px;
+  background-color: rgb(199, 196, 196);
+  border-radius: 6px;
+  list-style: none;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.dropdown1 ul li {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+  border-bottom: 1px white solid;
+  height: 30px;
+}
+.dropdown1 ul .li1 {
+ background-color: gray;
+}
+
+.dropdown1 ul .li a:link, .dropdown1 ul .li a:visited {
+  display: inline-block;
+  padding: 10px 0.8rem;
+  width: 100%;
+  box-sizing: border-box;
+  
+  color: var(--dropdown1-color);
+  text-decoration: none;
+}
+
+.dropdown1 ul .li a:hover {
+  background-color: var(--dropdown1-highlight);
+  color: var(--dropdown1-background);
+}
+
+/* Dropdown1 triangle */
+.dropdown1 ul::before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: -10px;
+  left: 50%;
+  margin-left: -10px;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent var(--dropdown1-background) transparent;
+}
+
+
+/* Close the dropdown1 with outside clicks */
+.dropdown1 > summary::before {
+  display: none;
+}
+
+.dropdown1[open] > summary::before {
+    content: ' ';
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+}

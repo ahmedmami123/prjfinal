@@ -1,0 +1,745 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&family=Tajawal:wght@200&display=swap');
+.home {
+  margin-top: -50px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home .img {
+  width: 100%;
+  height: auto;
+}
+.home .img img {
+  width: 100%;
+  height: auto;
+}
+.home .img .top-banner {
+  width: 100%;
+  height: 617px;
+  background-color: rgba(0, 0, 0, 0.555);
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.home .img .top-banner h1 {
+  font-size: 50px;
+  color: white;
+}
+.home .img .top-banner h1 span {
+  color: #13c37a;
+}
+.home .img .top-banner .search {
+  width: 80%;
+  height: 100px;
+  background-color: rgb(214, 209, 209);
+  border-radius: 100px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.home .img .top-banner .divs{
+width: 1000px;
+height: 100px;
+margin-top: 40px;
+display: flex;
+justify-content: space-around;
+}
+.home .img .top-banner .divs .div1{
+  width: 220px;
+  height: 100px;
+ background-color: rgba(128, 128, 128, 0.562);
+ border-radius: 8px;
+ border: 0.5px rgba(255, 255, 255, 0.575) solid;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+  }
+  .home .img .top-banner .divs .div1 .icon{
+    width: 60px;
+    height: 60px;
+   background-color: rgba(128, 128, 128, 0.808);
+   border-radius: 8px;
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    }
+    .home .img .top-banner .divs .div1 .descri{
+      width: 100px;
+      height: 60px;
+     border-radius: 8px;
+     
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     line-height: 1px;
+     
+      }
+      .home .img .top-banner .divs .div1 .descri .p1{
+     font-size: 20px;
+     font-weight: 600;
+       color: white;
+       width: 120px;
+        }
+        .home .img .top-banner .divs .div1 .descri .p2{
+          font-size: 16px;
+            color: white;
+            width: 120px;
+            margin-top: 1px;
+             }
+.home .img .top-banner .search {
+  width: 80%;
+  height: 100px;
+  background-color: rgb(214, 209, 209);
+  border-radius: 100px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.home .img .top-banner .search .div1 {
+  width: 80%;
+  height: 90%;
+  background-color: white;
+  border-bottom-left-radius: 100px;
+  border-top-left-radius: 100px;
+
+  margin-left: 4px;
+  border-right: 1px rgba(128, 128, 128, 0.397) solid;
+  display: flex;
+  align-items: center;
+}
+.home .img.top-banner .search .div1 svg {
+  margin-left: 20px;
+}
+.home .img .top-banner .search .div1 input {
+  margin-left: 20px;
+  width: 300px;
+  height: 90px;
+  border: none;
+  font-size: 20px;
+  outline: none;
+}
+.home .img .top-banner .search .div2 {
+  margin: 0 auto;
+  width: 20%;
+  height: 90%;
+  background-color: white;
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 100px;
+  margin-right: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home .img .top-banner .search .div2 button {
+  width: 90%;
+  height: 60px;
+  background: linear-gradient(to right, #00fe90, #137bc3);
+  border-radius: 100px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+.home .img .top-banner .search .div2 button svg {
+  margin-right: 10px;
+}
+.wrapper {
+  /*This part is important for centering*/
+  display: flex;
+  align-items: center;
+}
+
+.typing-demo {
+  width: 12ch;
+  animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  margin-left: 15px;
+  font-size: 50px;
+  animation-iteration-count: 2000;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.home .divis {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home .divis button {
+  width: 180px;
+  height: 30px;
+  background: linear-gradient(to right, #00fe90, #137bc3);
+  border: none;
+  border-radius: 3px;
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+}
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap%27');
+.home .divis .titre {
+  font-size: 30px;
+  margin-top: 0px;
+  color: rgb(22, 21, 21);
+  color: #137bc3;
+  font-family: 'Kaushan Script', cursive;
+
+}
+
+.home .divis .lorem {
+
+  color: gray;
+  text-align: center;
+  width: 750px;
+  font-size: 17px;
+  margin-top: -20px;
+  text-align: justify;
+  margin-bottom: 20px;
+
+}
+
+.home .divis .lorem1 {
+  color: gray;
+  text-align: center;
+  width: 750px;
+  font-size: 17px;
+  margin-top: -10px;
+  text-align: center ;
+  margin-bottom: 20px;
+
+
+}
+.home .durable {
+  width: 85%;
+  height: 585px;
+overflow: hidden;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  transition: 1s;
+}
+.home .durable1 {
+ 
+  height: auto !important;
+  transition: 2s !important;
+
+}
+.home .durable .div {
+  width: 284.5px;
+  height: 270px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 0.1px rgba(128, 128, 128, 0.226) solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+ .modal {
+width: 100%;
+height:680px;
+background-color: rgba(0, 0, 0, 0.479);
+position: fixed;
+display: flex;
+justify-content: center;
+align-items: center;
+top: 0;
+left: 0;
+z-index: 999999999999999999999999999999999999999999;
+
+}
+ .modal .sous {
+ width: 70%;
+ height: 500px;
+ background-color: white;
+ border-radius: 30px;
+ z-index: 9999999999999999999999999999999999999999999999999999;
+ display: flex;
+ overflow: hidden;
+  }
+
+  .modal .sous .exit {
+width: 70px;
+height: 70px;
+border-radius: 50%;
+background-color: white;
+position: absolute;
+right: 170px;
+top:50px;
+display: flex;
+justify-content: center;
+align-items: center;
+     }
+     .modal .sous .div1 {
+     width: 55%;
+     height:100%;
+     display: flex;
+     flex-direction: column;
+
+justify-content: flex-start;
+align-items: center;
+overflow-y: scroll;
+           }
+          
+                          .modal .sous  img{
+                  
+                    width: 100%;
+
+                                  }
+
+.home .durable .circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px rgba(128, 128, 128, 0.144) solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .durable .circle img {
+  width: 70%;
+  height: 70%;
+}
+.home .durable p {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  width: 260px;
+  text-align: center;
+  height: 65px;
+}
+.home .durable span {
+  font-weight: 500;
+  color: rgb(70, 70, 70);
+  font-size: 17px;
+  width: 110px;
+  height: 30px;
+  background-color: rgba(128, 128, 128, 0.205);
+  text-align: center;
+  align-items: center;
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .durable span:hover {
+  color: white;
+}
+.home .durable .div:hover {
+  background-color: #00fe90;
+}
+.home .durable .div:hover span {
+  color: white;
+}
+.home .durable .div:hover p {
+  color: white;
+}
+.home .view {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .view button {
+ width: 250px;
+ height: 40px;
+ border: none;
+ background: linear-gradient(to right, #00fe90, #137bc3);
+ border-radius: 5px;
+ color: white;
+ font-size: 20px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.home .view button svg  {
+margin-left: 10px;
+font-weight: 600;
+ }
+ .home .durable .sdg {
+  width: 856.5px;
+  height: 270px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 0.1px rgba(128, 128, 128, 0.226) solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+.home .durable .sdg img {
+  width: 250px;
+  margin-left: 20px;
+  margin-right: 15px;
+}
+.home .durable .sdg p {
+ width: 600px;
+ font-size: 35px;
+}
+.investisseur{
+  width: 85%;
+  height: auto;
+margin-top: 40PX;
+margin-bottom: 40px;
+}
+
+          .viewbutton{
+            width: 250px;
+            height: 40px;
+            border: none;
+            background: linear-gradient(to right, #00fe90, #137bc3);
+            border-radius: 5px;
+            color: white;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+          }
+          .poverty{
+            width: 100%;
+            height: 400px;
+           overflow: hidden;
+            display: flex;
+            margin-top: 40px;
+            justify-content: center;
+            align-items: center;
+          }
+          .poverty img{
+            width: 100%;
+            height: auto;
+            margin-top: 0px;
+            object-fit: cover;
+          }
+          .poverty .back{
+            width: 100%;
+            transition: 1s;
+            position: absolute;
+            height: 400px;
+            background-color: rgba(0, 0, 0, 0.637);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          }
+          .poverty:hover .back2{
+            width: 100%;
+transition: 1s;
+          }
+     
+          .poverty .back2{
+            width: 0;
+            position: absolute;
+            height: 400px;
+            background-color: rgba(0, 0, 0, 0.253);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            transition: 1s;
+          }
+          .poverty .back .tit{
+         font-weight: 600;
+         font-size: 60px;
+         display: flex;
+         margin-left: 100px;
+         font-family: 'Tajawal', sans-serif;
+          }
+
+          .poverty .back .para{
+            margin-top: -50px;
+            font-size: 35px;
+            display: flex;
+            font-weight: 600;
+            margin-left: 100px;
+            width: 800px;
+            text-align: justify;
+            font-family: 'Tajawal', sans-serif;
+             }
+       .control-arrow{
+          color: red !important;
+       }
+       .carou{
+  
+        display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+    
+border-radius: 8px;
+      height:520px;
+    }
+    .carou  .usercar{
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        
+       margin-top: 15px;
+        z-index: 99999999;
+        position: absolute;
+        top: 0;
+        overflow: hidden;
+      border: 2px rgba(0, 0, 0, 0.356) solid;
+        overflow: hidden;
+        object-fit: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+       }
+       .carou  .usercar img{
+width: 100% !important;
+       
+       }
+       
+       .carou  .decri{
+        width: 95%;
+        height: 380px;
+        border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        font-family: 'Roboto Mono', monospace;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    background-color: white;
+       
+       }
+       .carou  .decri h3{
+      color: gray;
+    
+       margin-top: -15px;
+       }
+       .carou  .decri p{
+        color: gray;
+      text-align: center;
+      width: 900px;
+   
+      font-size: 20px;
+      font-family: none;
+         
+         }
+       .c{margin-bottom: 40px;
+      margin-top: 40px;
+      cursor:grab;
+      }
+      .carousel.carousel-slider .control-arrow {
+        top: 0;
+       
+        width: 50px;
+        font-size: 26px;
+        bottom: 0;
+        height: 50px;
+        margin-top: 0;
+        border-radius: 50%;
+        padding: 5px;
+        background-color: #00fe90 !important;
+        margin-top: 230px !important;
+color: black !important;
+      }
+      .carousel.carousel-slider{
+        opacity: none !important;
+      }
+      .carousel .control-dots .dot{
+        background-color: #00fe90 !important;
+      }
+
+
+
+      @import url('https://fonts.googleapis.com/css?family=Muli:400,700&display=swap');
+
+ .container1 {
+	 width: 100%;
+	 overflow: hidden;
+	 position: relative;
+}
+ .container1 .items {
+	 display: flex;
+	 align-items: center;
+	 width: fit-content;
+	 animation: carouselAnim 10s infinite alternate linear;
+}
+ .container1 .items .entry {
+	 display: flex;
+	 align-items: center;
+	 flex-direction: column;
+	 position: relative;
+	 width: 300px;
+	 background: white;
+	 margin: 1em;
+	 padding: 0.5em;
+	 border-radius: 10px;
+	 box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.05);
+}
+.container1 .items .entry .img{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: #00fe90;
+  display: flex;
+  justify-content: center;
+align-items: center;
+background: linear-gradient(45deg,rgb(37, 189, 37) 0%,rgb(25, 138, 25) 25%,rgb(77, 240, 240) 50%,rgb(12, 96, 145) 75% ,rgb(15, 15, 117) 100%);
+
+}
+.container1 .items .entry .img img{
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  background-color: #00fe90;
+}
+ .container1 .items .entry p {
+	 text-align: center;
+	 padding: 1em;
+}
+ .container1 .items .entry p.name {
+	 font-weight: bold;
+}
+ @keyframes carouselAnim {
+	 from {
+		 transform: translate(0, 0);
+	}
+	 to {
+		 transform: translate(calc(-100% + (5*300px)));
+	}
+}
+ @media only screen and (max-width: 768px) {
+	 .container1 .items {
+		 animation: carouselAnim 10s infinite alternate linear;
+	}
+	 @keyframes carouselAnim {
+		 from {
+			 transform: translate(0, 0);
+		}
+		 to {
+			 transform: translate(calc(-100% + (2*300px)));
+		}
+	}
+}
+ .container1 .faders {
+	 width: 100%;
+	 position: absolute;
+	 height: 100%;
+}
+ .container1 .faders .left, .container1 .faders .right {
+	 background: linear-gradient(to right, rgba(245, 245, 245, 1) 0%, rgba(255, 255, 255, 0) 100%);
+	 width: 20%;
+	 height: 100%;
+	 position: absolute;
+	 z-index: 200;
+}
+ .container1 .faders .right {
+	 right: 0;
+	 background: linear-gradient(to left, rgba(245, 245, 245, 1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+ 
+
+
+.modaldiv1{width: 100%;
+  height: 600px;
+background-color:rgba(0, 0, 0, 0.493) ;
+
+position: fixed;
+display: flex;
+align-items: center;
+justify-content: center;
+left: 0;
+top: 0;
+z-index: 9999999999999999999999999999999999999999999999999;}
+.modaldiv1 .sousmodal{
+width: 80% !important;
+overflow: scroll;
+height: 500px;
+background-color: white;
+border-radius: 10px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@200&display=swap');
+.modaldiv .sousmodal h3{
+margin-top: 30px !important;
+color: #137bc3 !important;;
+}
+.modaldiv1 .sousmodal label{
+color: gray;
+width: 90%;
+text-align: justify;
+}
+.modaldiv1 .sousmodal .Resources{
+margin-top: 50px !important;
+width: 90%;
+height: 60px;
+display: flex;
+flex-wrap: wrap;
+margin: 0 auto;
+}
+.modaldiv1 .sousmodal .Resources .div1{
+width: 30%;
+height: 60px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+margin-top: 10px;
+  }
+
+      .modaldiv1 .sousmodal .Resources .div1 div{
+       width:100%;
+       margin-left: 40px;
+       height: 50%;
+       display: flex;
+       justify-content: flex-start;
+       align-items: center;
+          }
+          
+  
+.modaldiv1 .sousmodal .delete{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+border: 3px rgba(0, 0, 0, 0.493) solid;
+position: absolute;
+background-color: white;
+margin-top: -500px;
+right: 120px !important;
+display: flex;
+justify-content: center;
+align-items: center;
+}

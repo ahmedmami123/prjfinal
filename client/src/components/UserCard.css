@@ -1,0 +1,79 @@
+.usercard {
+  width: 320px;
+  height: 430px;
+  border: 1px rgba(0, 0, 0, 0.267) solid;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.usercard .cov {
+  width: 100%;
+  height: 120px;
+  overflow: hidden;
+}
+.usercard .cov img {
+  width: 100%;
+  margin-top: -45px;
+}
+.usercard .img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  margin-top: -50px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px rgba(128, 128, 128, 0.432) solid;
+}
+.usercard .img img {
+  width: 100%;
+}
+.usercard .update {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.usercard .update .btn1 {
+  width: 45px;
+  height: 45px;
+  background-color: #006dff;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.usercard .update .btn1:hover {
+  background-color: red;
+}
+.usercard .update .btn2 {
+  width: 45px;
+  height: 45px;
+  background-color: #006dff;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.usercard .update .btn2:hover {
+  background-color: #00fe90;
+}
+.usercard .update select {
+width: 160px;
+height: 40px;
+background-color: transparent;
+outline: none;
+color: black;
+font-weight: 600;
+border-radius: 20px;
+}

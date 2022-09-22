@@ -1,0 +1,198 @@
+ .idea{
+    width: 100%;
+    height:150px;
+    border: 0.1px rgba(128, 128, 128, 0.226) solid;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    
+  }
+.idea .user{
+  width: 15%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+  }
+  .idea .user div{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+    }
+    .idea .user div img{
+      width: 100%;
+    
+        }
+.idea .sousidea{
+      width: 65%;
+      height: 100%;
+      display: flex;
+    
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      
+      }
+    .idea .sousidea .nameuser{
+        width: auto;
+        height: 30px;
+        background-color: #00fe9077;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 5px;
+        }
+.idea .sousidea .nameuser p{
+         color: white;
+         font-weight: 500;
+          }
+.idea .sousidea .titre{
+          width: auto;
+          height: 30px;
+          padding-left: 10px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin-left: -10px;
+          }
+           .idea .sousidea .titre p{
+           font-size: 25px;
+            }
+             .idea .sousidea .cle{
+              width: auto;
+              height: 30px;
+              overflow: hidden;
+            
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             margin-top: 15px;
+              }
+               .idea .sousidea .cle div{
+                width: auto;
+                height: 30px;
+               background-color: rgba(128, 128, 128, 0.151);
+               margin-right: 5px;
+               display: flex;
+               flex-direction: row;
+               justify-content: center;
+               align-items: center;
+               padding-left: 10px;
+               padding-right: 10px;
+               border-radius: 8px;
+                }
+       .idea .button{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+      
+        
+        }
+        .investisseur .idea .button button{
+          width: 200px;
+          height: 50px;
+          display: flex;
+          
+          justify-content: center;
+          align-items: center;
+          background: linear-gradient(to right, #00fe90, #137bc3);
+          border-radius: 8px;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+          }
+          .investisseur .idea .button button:hover{
+            background: linear-gradient(to right,white, white);
+            color: rgb(151, 150, 150);
+            border: 2px  #00fe90 solid;
+  
+            }
+
+
+            .modaldiv{width: 100%;
+              height: 657px;
+            background-color:rgba(0, 0, 0, 0.493) ;
+          
+          position: fixed;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        left: 0;
+        top: 0;
+        z-index: 9999999999999999999999999999999999999999999999999;}
+        .modaldiv .sousmodal{
+          width: 60%;
+          height: 500px;
+          background-color: white;
+          border-radius: 20px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-start;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@200&display=swap');
+        .modaldiv .sousmodal h3{
+        margin-top: 30px !important;
+          color: #137bc3 !important;;
+        }
+        .modaldiv .sousmodal label{
+        color: gray;
+        width: 90%;
+        text-align: justify;
+        }
+        .modaldiv .sousmodal .Resources{
+          margin-top: 50px !important;
+        width: 90%;
+        height: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+          }
+          .modaldiv .sousmodal .Resources .div1{
+            width: 30%;
+            height: 60px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            margin-top: 10px;
+              }
+         
+                  .modaldiv .sousmodal .Resources .div1 div{
+                   width:100%;
+                   margin-left: 40px;
+                   height: 50%;
+                   display: flex;
+                   justify-content: flex-start;
+                   align-items: center;
+                      }
+                      
+              
+        .modaldiv .sousmodal .delete{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 3px gray solid;
+        position: absolute;
+        background-color: white;
+        margin-top: -20px;
+        right: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }

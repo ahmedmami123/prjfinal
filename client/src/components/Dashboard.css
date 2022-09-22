@@ -1,0 +1,211 @@
+.dashboard{
+    width: 100%;
+    height: 625px;
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+   }
+   .dashboard .left{
+ width: 22%;
+position: fixed;
+left: 0;
+ height: 625px;
+ background-color: rgb(36, 33, 33);
+ display: flex;
+ flex-direction: column;
+ color: white;
+
+   }
+   .dashboard .left .sousleft1{
+    width: 83%;
+    height: 60px;
+    border-bottom:1px solid rgba(255, 255, 255, 0.466) ;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .dashboard .left .sousleft1 h2{
+  margin-left: 15px;
+  font-family: "Comfortaa", cursive;
+  
+
+   }
+   .dashboard .left .user{
+ width: 100%;
+ height: auto;
+ margin-top: 10px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ 
+
+   }
+.noti{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  margin-left: 150px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+  .dashboard .left .user .user-img{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+border: 1px white solid;
+display: flex;
+justify-content: center;align-items: center;
+overflow: hidden;
+   }
+   .dashboard .left .user .user-img img{
+   width: 100%;
+       }
+   .dashboard .left .user .list {
+    width: 100%;
+    height: 70px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+    
+}
+.dashboard .left .user .list p {
+ margin-left: 10px;
+ color: rgba(255, 255, 255, 0.603);
+}
+.dashboard .left .user .list svg{
+  width: 25;
+  height: 25;
+  margin-left: 20px;
+
+ }
+ .dashboard .left .user .list:hover {
+ color:rgb(41, 107, 206) !important;
+ cursor: pointer;
+
+ }
+ .dashboard .left .user .list:hover p{
+  color:rgb(41, 107, 206) !important;
+  cursor: pointer;
+ 
+  }
+ .dashboard .left .user .list .rot1{
+  width: 50px;
+  height: 50px;
+  background-color:white;
+  transform: rotate(45deg);
+  position: fixed;
+  margin-left: 280px;
+  border-radius: 8px;
+  background-color: rgb(224, 218, 218);
+ 
+  }
+
+ .dashboard .right{
+  width: 78%;
+position: absolute;
+  height: 625px;
+  background-color: rgb(224, 218, 218);
+  display: flex;
+  flex-direction: column;
+ right:0;
+    }
+    .dashboard .right .search{
+      width: 100%;
+      height: 60px;
+      border-bottom:1px solid rgba(0, 0, 0, 0.116) ;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .dashboard .right .search p{
+    font-size: 20px;
+    margin-left: 20px;
+    color:rgb(83, 81, 81);
+
+    }
+    
+    .dashboard .right .search input{
+      width: 250px;
+      height: 38px;
+      margin-right: 20px;
+      border: none;
+      border-radius: 10px;
+      background-color: rgb(211, 206, 206);
+      padding-left: 10px;
+      }
+      .dashboard .right .search svg{
+        position: absolute;
+        right: 40px;
+        fill: rgba(82, 79, 79, 0.521);
+        }
+        .dashboard .right .map{
+          width: 100%;
+          height: 565px;
+          display: flex;
+          flex-direction: column;
+          }
+      
+        .dashboard .right .top{
+          width: 100%;
+          height: 50px;
+          display: flex;
+          border-bottom: 1px rgba(128, 128, 128, 0.336) solid;
+
+          }
+          .dashboard .right .top select{
+            width: 200px;
+            height: 40px;
+            outline: none;
+            margin: 0 auto;
+            border-radius: 8px;
+            background-color: transparent;
+            margin-top: 5px;
+  
+            }
+          .dashboard .right .top div{
+            width:33.33%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+background-color: gray;
+            border-right: 1px white solid;
+            border-bottom: 1px white solid;
+            font-weight: 600;
+            color: white;
+            font-size: 25px;
+
+            }
+            .dashboard .right .top .bot{
+              width:33.33%;
+              height: 100%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              background-color: rgb(36, 33, 33);
+              border-right: 1px white solid;
+              border-bottom: 1px white solid;
+              font-weight: 600;
+              color: white;
+              font-size: 25px;
+  
+              }
+            .dashboard .right .bottom{
+              width: 100%;
+              height: 500px;
+              margin-top: 15px;
+              overflow: scroll;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+              }
+             
