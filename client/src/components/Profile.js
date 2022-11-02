@@ -1,3 +1,4 @@
+import { body } from "express-validator";
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { updateuser } from "../redux/userSlice/userSlice";
@@ -11,15 +12,41 @@ function Profile({setnav,setpp,ping,setPing}) {
     setpp("pp")
     
 }, [])
+// const [url1, seturl1] = useState()
+const [file, setfile] = useState()
 
 const [Editprofil, setEditprofil] = useState({
 
- 
 })
+
 const user=useSelector((state)=>state.user?.user);
 console.log(user)
 const dispatch=useDispatch();
-
+const uploadimg=()=>{
+  const data =new FormData()
+  data.append("file",file)
+  data.append("upload_preset","ahmedmami")
+  data.append("cloud_name","dwikjrexb")
+  fetch("https://api.cloudinary.com/v1_1/dwikjrexb/image/upload",{
+    method:"post",
+    body:data
+  })
+  .then(res=>res.json())
+  .then(data=>{
+    
+    // seturl1(data.secure_url)
+   var url1=data.secure_url
+    console.log("url",url1)
+  
+    setTimeout(() => {
+      setEditprofil({...Editprofil,user_img:url1})
+      setPing(!ping)
+    }, 2000);
+  })
+  .catch(err=>{
+    console.log("err",err)
+  })
+}
 
   return (
         // <div>hello {user? user.name:<h1>loading ...</h1>}</div>
@@ -65,23 +92,29 @@ const dispatch=useDispatch();
   <label>Postal Code</label><label>photo</label>
   <input type="number" defaultValue={user.Postal_Code} onChange={(e)=>setEditprofil({...Editprofil,Postal_Code:e.target.value})}/>
 
-  <input type="text"  onChange={(e)=>setEditprofil({...Editprofil,user_img:e.target.value})}/>
+  <input type="file"   onChange={(e)=>setfile(e.target.files[0])}/>
+<button onClick={()=>{
+  
+    uploadimg();
+  
+    setPing(!ping);
+}}></button>
 </div>
-<div>
+{/* <div>
   <label >About me</label>
   <textarea  type="text" placeholder="About me" defaultValue={user.about} onChange={(e)=>setEditprofil({...Editprofil,about:e.target.value})}/>
 
 
-</div>
+</div> */}
 <div>
 <button onClick={()=>{
-        dispatch(updateuser({id:user._id,Editprofil}));
-        setPing(!ping);
-      
-  
-      }}
 
->UPDATE PROFILE</button>
+  setTimeout(() => {
+    dispatch(updateuser({id:user._id,Editprofil}));
+    setPing(!ping);
+  }, 5000);
+
+  }}>UPDATE PROFILE</button>
 
 </div>
 <div>

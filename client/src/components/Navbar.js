@@ -232,8 +232,8 @@ function Navbar({ navStyle, pp, navbardash ,ping,setPing}) {
                 </div>
                 </Link>:null
               }
-                  <Link to="/profil">
-                  <div className="dropdiv" >
+                  <Link  to="/profil">
+                  <div onClick={() => setShow(!show)} className="dropdiv" >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
